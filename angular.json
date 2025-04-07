@@ -69,10 +69,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "IfElse-company-task:build:production"
+              "buildTarget": "IfElse-company-task:build:production"
             },
             "development": {
-              "browserTarget": "IfElse-company-task:build:development"
+              "buildTarget": "IfElse-company-task:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -80,7 +80,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "IfElse-company-task:build"
+            "buildTarget": "IfElse-company-task:build"
           }
         },
         "test": {
